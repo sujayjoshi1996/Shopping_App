@@ -1,0 +1,26 @@
+{% extends 'layout.html'%}
+
+
+{% block content %}
+<h1>{{title}}</h1>
+<div class='row'>
+<div class ='col-xs-4'>
+
+<!--if the form is filled then we have new context as in vews that is displayed   -->
+{% if confirm_message%}
+<p>{{confirm_message}}</p>
+{% endif %}
+
+<!--if the form is rendered display submit button or else dont  -->
+{% if form%}
+<form method ='POST' action="">{% csrf_token %}
+<!-- from is displayed as paragraph -->
+  {{form.as_p}}
+
+
+
+<input type ="submit" valus= "submit form" class ='btn btn-default'/>
+{% endif %}
+</form>
+</div>
+{% endblock %}
