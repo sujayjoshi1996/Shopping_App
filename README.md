@@ -10,5 +10,5 @@ What can be added?
 1. Option where user can add items to wishlist
 2. Remember the paymet information and defaultpayment method
 3. Recommend user items based on their previous serch
-4. Serch predection
+4. Search predection
 5. Option to create user profile and more
