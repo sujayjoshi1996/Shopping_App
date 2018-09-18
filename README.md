@@ -1,4 +1,4 @@
-# Shopping_App
+# SJ Shopping
 
 This is an online shopping application done using django, html, css and some javascript.
 We have a login, signup on the navigation bar of the home page, then we have all the items being displayed with its name, discription, price and image.
